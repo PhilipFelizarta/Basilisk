@@ -1,0 +1,49 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 55266"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1/2-1/2"]
+
+1. e4 e5 2. Bd3 d6 3. Nf3 Nf6 4. b3 Nbd7 5. a3 Be7 6. Bb2 O-O 7. O-O Nxe4 8.
+Bc3 Nxd2 9. h3 Nc5 10. Be4 Ne6 11. Qxd2 Bh4 12. Rd1 Be7 13. Bd3 Bf6 14. g3 Re8
+15. Kh1 a6 16. Be4 g6 17. Bd5 Re7 18. Bxe6 Bxe6 19. Qd3 Rd7 20. Nbd2 g5 21. a4
+c6 22. Ra2 Bd5 23. Ba5 Kf8 24. Bb4 Kg7 25. Bxd6 b5 26. h4 gxh4 27. Qe2 Qe8 28.
+Rc1 Re7 29. Rd1 Qf8 30. Rf1 Bxb3 31. Qe3 Qg8 32. Bc5 Rc8 33. Qxe5 Be6 34. Rd1
+Rce8 35. Rf1 Bc4 36. Qf5 bxa4 37. Rfa1 Bd3 38. Nb1 Be4 39. Qc8 Qf8 40. Bb4
+Bxf3+ 41. Kh2 Re5 42. Nc3 a5 43. Qe6 Kh6 44. Qf5 Kg7 45. Qe6 h5 46. Qd7 Re4 47.
+Qxc6 Re1 48. Kh3 R1e2 49. Qd7 R2e4 50. Qc6 Re3 51. Rb1 Re1 52. Rba1 R1e2 53.
+Rb1 R2e4 54. Ra3 Bd4 55. Rxa4 Re1 56. Rxa5 R1e2 57. Rd1 Kh8 58. Na2 Kg8 59. Re1
+Bc3 60. Ra6 R2e4 61. Kh2 hxg3+ 62. Kh3 Bxe1 63. Rb6 Bxf2 64. Bd6 R4e5 65. Bc5
+Re4 66. Bd6 R4e5 67. Bc5 Re4 68. c3 Rd8 69. Be3 Ree8 70. Bc5 Re2 71. Kh4 Rb2
+72. Bd6 Rb8 73. Qb5 Rb7 74. Kh3 Kg7 75. Bc5 Rxa2 76. Be3 Rc7 77. Qc5 Rc2 78.
+Rd6 Be2 79. Qb4 Bg4+ 80. Qxg4+ Kh7 81. Rd5 f6 82. Rd4 h4 83. Rd3 Rc1 84. Rd6
+Qf7 85. Qg8+ Qxg8 86. Rd5 Rb1 87. Rc5 Rb2 88. Rd5 Re2 89. Rc5 Re1 90. Kg2 Rf1
+91. Bd4 Qg7 92. Be5 Rc1 93. Rb5 Re1 94. Bxf6 Qh6 95. Rc5 Kg8 96. Kh3 Kf8 97.
+Kg2 Ke8 98. Rg5 h3+ 99. Kf3 g2 100. Rg4 g1=Q 101. Bg5 Qg2+ 102. Kf4 Qf1 103.
+Kf3 Re3+ 104. Kf4 Re2 105. Kf3 Qg1 106. Bf6 Re1 107. Bg5 Qg2+ 108. Kf4 Qf1 109.
+Kf5 Re2 110. Kf4 Qg1 111. Kf3 Qg2+ 112. Kxe2 Qh2 113. Kd1 Qg1+ 114. Kd2 Qg7
+115. Rh4 Kd7 116. Kd3 Qh1 117. Rxh3 Qe1 118. Bf4 Qh6 119. Bg5 Qxg5 120. Rh2 Qf6
+121. Kc2 Qg5 122. Rg2 Qee5 123. Rh2 Qg4 124. Rg2 Qh3 125. Rxf2 Qhh2 126. Kb2
+Qg2 127. Kb3 Qg1 128. Ka4 Ke7 129. Re2 Qe4+ 130. c4 Qb1 131. Rc2 Qe3 132. Ka5
+Qe2 133. Ka4 Qee1 134. Ka3 Qb3+ 135. Kxb3 Qg1 136. Kb4 Kd7 137. Kc3 Qc1 138.
+Kb4 Qf4 139. Kc3 Qe5+ 140. Kd3 Qe1 141. Kd4 Qe6 142. Kd3 Rb7 143. Kc3 Ke7 144.
+Kd4 Ra7 145. Kd3 Qd5+ 146. Ke3 Kf6 147. Kf4 Qd4+ 148. Kf3 Qd1+ 149. Kf4 Qxc2
+150. Kg4 Qb3 151. Kf4 Qa2 152. Ke4 Kg5 153. Kd4 Qa3 154. Ke4 Qa2 155. Kd4 Qa3
+156. Ke4 Qa2 157. Ke5 Qa3 158. Kd5 Qa2 159. Ke4 Qa3 160. Ke5 Qa2 161. Kd5 Qa3
+162. Kd4 Qa2 163. Kc5 Qa3+ 164. Kb6 Qa2 165. c5 Qa3 166. c6 Qa2 167. c7 Qb3+
+168. Kxa7 Kh4 169. Ka8 Kh3 170. Ka7 Qa4+ 171. Kb7 Kh4 172. Kc8 Qa2 173. Kd7 Kh3
+174. Kc6 Qc2+ 175. Kb6 Kh2 176. Kb7 Qb3+ 177. Kc6 Qg3 178. Kb5 Qf3 179. Ka4 Qg3
+180. Kb5 Qf3 181. Ka4 Qg3 182. Ka5 Qe1+ 183. Ka4 Qe4+ 184. Ka5 Qe5+ 185. Ka6
+Qf5 186. Ka7 Qe4 187. Ka6 Qe5 188. Ka7 Qf5 189. Ka6 Qe4 190. Ka5 Qe5+ 191. Ka6
+Qf5 192. Ka7 Qe4 193. Ka6 Qe5 194. Ka7 Qf5 195. Ka6 Qe4 196. Ka5 Qe5+ 197. Ka6
+Qf5 198. Ka7 Qe4 199. Ka6 Qe5 200. Ka7 Qf5 201. Ka6 Qe4 202. Ka5 Qe5+ 203. Ka6
+Qf5 204. Ka7 Qe4 205. Ka6 Qe5 206. Ka7 Qf5 207. Ka6 Qe4 208. Ka5 Qe5+ 209. Ka6
+Qf5 210. Ka7 Qe4 211. Ka6 Qe5 212. Ka7 Qf5 213. Ka6 Qe4 214. Ka5 Qe5+ 215. Ka6
+Qf5 216. Ka7 Qe4 217. Ka6 Qe5 218. Ka7 Qf5 219. Ka6 Qe4 220. Ka5 Qe5+ 221. Ka6
+Qf5 222. Ka7 Qe4 223. Ka6 Qf5 224. Ka7 Qe4 225. Ka6 Qe5 226. Ka7 Qf5 227. Ka6
+Qe4 228. Ka5 Qe5+ 229. Ka6 Qf5 230. Ka7 Qe4 231. Ka6 Qe5 232. Ka7 Qf5 233. Ka6
+Qe4 234. Ka5 Qe5+ 235. Ka6 Qf5 236. Ka7 Qe4 237. Ka6 Qe5 238. Ka7 Qf5 239. Ka6
+Qe4 240. Ka5 Qe5+ 241. Ka6 Qf5 242. Ka7 Qe4 243. Ka6 1/2-1/2
+

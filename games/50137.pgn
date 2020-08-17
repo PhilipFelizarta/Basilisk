@@ -1,0 +1,35 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 50137"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1/2-1/2"]
+
+1. e4 Nc6 2. Nf3 e5 3. d4 exd4 4. Qd3 d6 5. Be3 a6 6. Qd2 Nf6 7. Be2 Bg4 8. O-O
+Nxe4 9. h3 b6 10. Rd1 Qe7 11. Nxd4 O-O-O 12. Nxc6 Nxd2 13. Nd4 Bh5 14. c4 Nf3+
+15. Bxf3 Qf6 16. c5 h6 17. Ne2 Qg5 18. Nd4 Bg4 19. b3 Qf5 20. Nc6 g6 21. Kh2
+Qf4+ 22. g3 Qe5 23. Rd4 Re8 24. Kg1 g5 25. hxg4 Qxc5 26. Kf1 Qc4+ 27. Ke1 Kb7
+28. Kd1 Qxd4+ 29. Ke2 Kc8 30. Ne7+ Bxe7 31. Bxd4 Reg8 32. Kd2 b5 33. Kc3 f6 34.
+a4 Kb8 35. Be5 h5 36. Na3 b4+ 37. Kd2 c6 38. Rb1 h4 39. Nc4 Rc8 40. Bxf6 Rh7
+41. Bxe7 Rh5 42. a5 Rh6 43. Ke2 Rh5 44. Kd2 Rh6 45. Ke1 Rh5 46. Kd1 Rh6 47. Ra1
+Rc7 48. Nb2 d5 49. Kc1 h3 50. Kc2 Kb7 51. Rd1 Rh5 52. Re1 Rh6 53. Rc1 Rh5 54.
+Rd1 Rh4 55. Re1 h2 56. Rc1 Rh3 57. Rd1 Rh4 58. Re1 Rh3 59. Rc1 Rh4 60. Be4 Rh5
+61. f3 Rh6 62. f4 dxe4 63. Kd2 Rh5 64. Nd1 Rh6 65. Ra1 gxf4 66. Ne3 Kb8 67. Rf1
+Rh5 68. Rg1 Rh6 69. Kc2 Rh5 70. Ng2 Rh6 71. Nxf4 Rh5 72. Bh4 Rh6 73. Rd1 Rh5
+74. Rd7 Rxh4 75. Rh7 Rh5 76. Rh8+ Ka7 77. Rxh5 Kb7 78. Rf5 e3 79. Rf6 Rd7 80.
+Ng6 Rc7 81. Kb1 Rd7 82. Nf4 Ka7 83. Ka1 c5 84. Ka2 Ka8 85. g5 e2 86. Rg6 c4 87.
+Rf6 e1=Q 88. Rg6 Qd2+ 89. Kb1 Qa2+ 90. Kxa2 Rc7 91. Rf6 Rc6 92. Rg6 Kb8 93. g4
+Rd6 94. Rf6 Rd5 95. Rg6 Rd3 96. Rf6 Rh3 97. Rg6 Rc3 98. Rf6 Ka7 99. Rg6 Rc2+
+100. Kb1 Ra2 101. Rf6 Rg2 102. Nd3 Rxg4 103. Nc5 Rh4 104. Kc1 Rh3 105. Rf7+ Kb8
+106. Rf6 Rd3 107. Rf7 Rd1+ 108. Kxd1 Kc8 109. Nd3 Kb8 110. Ke1 Kc8 111. Kf2 Kb8
+112. Rd7 h1=Q 113. Rb7+ Kc8 114. Rb8+ Kxb8 115. Nf4 Qh3 116. Ke2 Qg3 117. Kd1
+Qg4+ 118. Kc1 Qh4 119. Nh5 Qh3 120. Nf4 Qd3 121. Ne2 Ka8 122. Nf4 Qc3+ 123. Kb1
+Qd4 124. Nd5 Qf6 125. Kc1 Qf7 126. Ne3 Qf5 127. Kb2 Qf3 128. Kc2 Qe2+ 129. Kb1
+Qb2+ 130. Kxb2 Kb8 131. Nd5 Kb7 132. Ne3 Ka7 133. Nd5 Kb7 134. Ne3 Ka7 135. Nd5
+Ka8 136. Ne3 Kb8 137. Nd5 Kb7 138. Ne3 Ka7 139. Kc2 Kb7 140. Kb1 Ka7 141. Ka2
+Kb8 142. Nf5 Kc8 143. Ne7+ Kb7 144. Nd5 Ka7 145. Nf6 Kb8 146. Nh7 Kb7 147. Nf6
+Kc7 148. Nh7 Kb8 149. Nf6 Ka7 150. Nh7 c3 151. Nf6 Kb7 152. Nh7 Kc7 153. Nf6
+Kd6 154. Nh7 Ke7 155. Nf6 Kf7 156. Nh7 Kg7 157. Nf6 Kf7 158. Nh7 Kg7 159. Nf6
+Kf7 160. Nh7 Kg7 161. Nf6 Kf7 162. Nh7 Kg7 163. Nf6 Kf7 1/2-1/2
+

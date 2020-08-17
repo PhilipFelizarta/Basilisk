@@ -1,0 +1,10 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 20028"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "*"]
+
+1. c4 Nf6 *
+

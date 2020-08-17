@@ -1,0 +1,13 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 55802"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1-0"]
+
+1. e4 e5 2. g3 g6 3. Be2 Nc6 4. Nh3 Qe7 5. g4 f5 6. Bb5 Bh6 7. Rg1 Nf6 8. exf5
+gxf5 9. Bxc6 dxc6 10. g5 Rg8 11. gxf6 Qe6 12. Qh5+ Kd8 13. Qxh6 f4 14. Ng5 Qf5
+15. Nf7+ Ke8 16. Rxg8+ Kxf7 17. Qf8+ Ke6 18. Qe7+ Kd5 19. Nc3+ Kc4 20. b3+ Kd4
+21. Rd8+ Bd7 22. Rxd7+ Qxd7 23. Qb4# 1-0
+

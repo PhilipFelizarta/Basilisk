@@ -1,0 +1,37 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 87654"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1/2-1/2"]
+
+1. Nf3 e6 2. d4 d5 3. e3 Nf6 4. Bd3 c5 5. Be2 cxd4 6. exd4 Be7 7. O-O Nc6 8.
+Bd2 O-O 9. Ng5 Nxd4 10. Bc3 b5 11. Nd2 Nc6 12. a4 e5 13. h3 h6 14. b3 Nd4 15.
+f3 Be6 16. a5 Bg4 17. Ne6 Ne4 18. Re1 Qc7 19. g3 Nc5 20. Rf1 Nd7 21. Bxd4 e4
+22. c3 a6 23. h4 Ne5 24. Qe1 Bh5 25. Qd1 Ra7 26. Rb1 fxe6 27. Bc4 g6 28. Bd3
+Nc4 29. Nxe4 Rd8 30. Ra1 Qb8 31. Qe2 Qb7 32. b4 Kf7 33. Nd6+ Rxd6 34. Rad1 Bg4
+35. Rd2 Bh3 36. Qf2 Bg4 37. Bf5 Ra8 38. fxg4 e5 39. Be4+ Bf6 40. Bf5 Bg7 41.
+Rfd1 Kf8 42. Bd3+ Rf6 43. Kg2 Rd8 44. Rc2 Rf7 45. Qf4 exf4 46. Bb6 Nd2 47. Kh3
+Rb8 48. Rdc1 Ne4 49. Kg2 Kg8 50. g5 Kh8 51. Rb1 Ra8 52. Rbc1 Rf6 53. Rb1 Rd8
+54. Kg1 Re8 55. Rbb2 Rf5 56. Rb1 Kg8 57. Rbb2 Rxg5 58. Kh1 Rg4 59. Kg1 h5 60.
+Kh1 Rxh4+ 61. Kg1 Nf6 62. Kf2 Rh3 63. Rb3 Rh2+ 64. Kf3 Qc7 65. Bxc7 Rd2 66. Rb1
+Rxc2 67. Bb6 Rf8 68. Bf2 Rd2 69. Rd1 Ra2 70. Re1 Ra1 71. Re5 Ra2 72. Bb1 Ra1
+73. Re3 Ra2 74. Be4 Ra3 75. Re2 Ra2 76. Re3 Ra3 77. g4 Rxc3 78. Kxf4 Rd8 79.
+Kf3 Kh7 80. Kf4 Nxe4 81. Rg3 Nd6 82. Rh3 d4 83. Rd3 Ne4 84. Rf3 Nf6 85. Rg3 Rd5
+86. Rd3 Rd6 87. Kf3 Rc2 88. Rxd4 h4 89. Rd1 g5 90. Rc1 Ne4 91. Kxe4 Re6+ 92.
+Kf3 Rc4 93. Rc3 Rxg4 94. Rc8 h3 95. Kxg4 Rf6 96. Kxh3 Kg6 97. Rf8 Rf5 98. Re8
+Rf4 99. Rc8 Kh6 100. Rb8 Kh5 101. Ra8 Rg4 102. Re8 Rh4+ 103. Kg3 Rh2 104. Be3
+Rb2 105. Rc8 Kg6 106. Rc1 Rf2 107. Ra1 Rf3+ 108. Kh2 Rf1 109. Kg2 Rg1+ 110.
+Kxg1 Kf7 111. Rb1 Ke7 112. Ra1 g4 113. Bb6 Kf6 114. Kg2 Kf7 115. Kg1 Ke7 116.
+Bd4 Kd8 117. Kg2 Kd7 118. Rb1 Kd6 119. Ra1 Ke6 120. Kg3 Kd5 121. Be3 Ke5 122.
+Bb6 Ke6 123. Be3 Ke5 124. Bb6 Ke6 125. Be3 Ke7 126. Rb1 Kf7 127. Kg2 Kf8 128.
+Kg1 Kf7 129. Kg2 Kf8 130. Kg1 Kf7 131. Kg2 Kf6 132. Kg1 Kf5 133. Kg2 Ke5 134.
+Ra1 Kf6 135. Bb6 Kf7 136. Ba7 Kf6 137. Bd4+ Kf5 138. Rb1 Kg5 139. Ra1 Kh4 140.
+Rb1 Bh6 141. Rd1 Bf8 142. Ra1 Bh6 143. Rb1 Bf8 144. Rd1 Kg5 145. Ra1 Kf4 146.
+Rb1 Kg5 147. Ra1 Kf4 148. Rd1 Kg5 149. Ra1 Kf4 150. Rb1 Kg5 151. Kg1 Kf4 152.
+Kg2 Kg5 153. Ra1 Kf4 154. Rd1 Kg5 155. Ra1 Kf4 156. Rb1 Kg5 157. Ra1 Kf4 158.
+Rd1 Kg5 159. Ra1 Kf4 160. Bb6 Kg5 161. Rd1 Be7 162. Bd4 Kh4 163. Ra1 Bd8 164.
+Ra2 Be7 165. Kg1 Bd8 166. Kg2 Be7 167. Kg1 Bd8 168. Kg2 Be7 169. Kg1 Bd8 170.
+Kg2 Be7 171. Kg1 Bd8 172. Kg2 1/2-1/2
+

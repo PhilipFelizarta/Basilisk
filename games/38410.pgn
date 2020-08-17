@@ -1,0 +1,35 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 38410"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1/2-1/2"]
+
+1. c4 e5 2. h4 d5 3. Nf3 Nf6 4. cxd5 Nxd5 5. e4 Nb4 6. a4 N4a6 7. Nxe5 Nc6 8.
+Na3 Bd7 9. f3 h6 10. Be2 Be7 11. Nc2 Nd4 12. Nc6 Bf6 13. Ra2 Qc8 14. e5 Bh3 15.
+g3 Bd7 16. Ra3 Nc5 17. Nd8 Nd3+ 18. Bxd3 c6 19. Nxd4 Be7 20. Be4 c5 21. Bd5
+cxd4 22. Rd3 O-O 23. Qc2 Rb8 24. a5 a6 25. Qc3 Re8 26. Qxd4 b6 27. Kd1 Bc5 28.
+axb6 Qb7 29. f4 Bxb6 30. e6 Bc6 31. f5 Bc5 32. b3 Rf8 33. h5 Bd6 34. Ke1 Bc5
+35. Kd1 Kh8 36. Qb4 Bd4 37. Rf3 Ra8 38. Qxd4 Raxd8 39. Rf4 Rc8 40. g4 Rc7 41.
+Rf2 Rcc8 42. Qc3 Rce8 43. Rf3 Kh7 44. f6 Qb5 45. g5 Qb6 46. Rf4 Bb5 47. Bf3 Bc6
+48. Be4+ Kh8 49. Rf5 g6 50. Rf3 a5 51. Re1 gxh5 52. Ref1 Qc5 53. Qb4 Qc4 54.
+Qxa5 Qb4 55. Qa6 Kg8 56. Qa7 Qxb3+ 57. Ke1 Qa4 58. Rf4 Bb5 59. R4f3 Bc6 60. Rf4
+Bb5 61. R4f3 Bc6 62. Rf4 Bb5 63. R4f3 Bc6 64. Rf4 Bb5 65. R4f3 Bd7 66. Rf4 Bc8
+67. R4f3 Bb7 68. e7 Qb3 69. Rf4 Qb6 70. Rf5 Qc5 71. R5f3 Bxe4 72. Qa6 Qxc1+ 73.
+Kf2 Qxd2+ 74. Kg3 Qc2 75. Qc8 h4+ 76. Kg4 Kh7 77. Kf4 Qd2+ 78. Kxe4 Qc2+ 79.
+Ke5 Qd1 80. Rxd1 Rxe7+ 81. Kf5 Rh8 82. Qf8 Re8 83. Kg4 Rg8 84. Rf4 Re2 85. Rfd4
+Rb2 86. Kf5 Re2 87. Kg4 Rb2 88. Kf5 Re2 89. R4d2 Rf2+ 90. Kg4 Rg2+ 91. Kf5 Rg1
+92. Ke4 Rg2 93. Kf4 Rg3 94. Ke5 Rf3 95. Qc8 Rf4 96. Qf8 Re4+ 97. Kd6 Re2 98.
+Rxe2 Rxf8 99. Kd7 Ra8 100. Kc6 Ra3 101. Re3 Ra5 102. Re6 Ra7 103. Re3 Ra3 104.
+Re4 Ra5 105. Rd6 Ra1 106. Rd7 Rh1 107. Rc7 Rf1 108. Ra7 Rg1 109. Kc7 h3 110.
+Rh4 Rg2 111. Rxh3 Rb2 112. Rg3 Rb3 113. Ra6 Rb5 114. Re6 Rb6 115. Ree3 Re6 116.
+Kb8 Rxf6 117. g6+ Kg7 118. Kb7 Rf5 119. Rg1 Rf1 120. Kb6 Rc1 121. gxf7+ Rxg1
+122. Kc5 Kg6 123. Kd6 Kf6 124. Kc5 Kg6 125. Kb4 Kg7 126. Kb5 Kf8 127. Kc6 Kxf7
+128. Kd7 Rg2 129. Re5 Rg3 130. Kc6 Rh3 131. Kc7 Rh1 132. Kb7 Rf1 133. Kb6 Rc1
+134. Rh5 Ke8 135. Rh1 Rc2 136. Ka7 Rh2 137. Re1+ Kd7 138. Ka8 h5 139. Kb8 Kc6
+140. Ka8 Kd6 141. Rf1 Kd5 142. Kb8 Kd4 143. Kb7 Ke3 144. Rg1 Kd3 145. Rg2 Kc4
+146. Rg3 Rc2 147. Kc7 Kd4+ 148. Kb6 Rc1 149. Kb5 Rg1 150. Rg7 Rg2 151. Ka4 Ra2+
+152. Kb5 Rg2 153. Ka4 Ra2+ 154. Kb5 Rg2 155. Ka4 Ra2+ 156. Kb5 Rg2 157. Ka4
+Ra2+ 158. Kb5 Rg2 1/2-1/2
+

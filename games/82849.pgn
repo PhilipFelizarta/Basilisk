@@ -1,0 +1,30 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 82849"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1/2-1/2"]
+
+1. c4 Nc6 2. d4 Nxd4 3. e4 d6 4. Qxd4 e5 5. Be2 h5 6. Qd2 Bf5 7. Nc3 Be6 8. Nf3
+Be7 9. O-O b6 10. a3 Bf6 11. g3 Ne7 12. Bd3 a6 13. h4 b5 14. Qc2 Rf8 15. Be3 d5
+16. Qb1 b4 17. Ne1 Bf5 18. Bd4 dxe4 19. a4 Bg5 20. g4 Bxh4 21. Bc2 Rb8 22. Bd1
+a5 23. Ng2 Be6 24. Qa2 c6 25. Kh2 Bd5 26. c5 Bg5 27. Qa3 Bf6 28. Nxe4 Bh4 29.
+Qxb4 Bg5 30. f3 Bh4 31. Ng5 Bxg5 32. Qd2 Bf4+ 33. Qxf4 g6 34. Qd2 f5 35. Bxe5
+hxg4 36. Rg1 Rf6 37. Rh1 Rc8 38. Qe3 Ra8 39. b4 g3+ 40. Kh3 Rc8 41. f4 Qd6 42.
+Kh4 Qxe5 43. Ra2 Kd8 44. Qd4 Rc7 45. Qe3 Qb2 46. Qd4 Qb1 47. Re1 Rb7 48. Kg5
+Ra7 49. Bg4 Qb2 50. Ne3 Re6 51. Nxf5 Qc1 52. Ne3 Ra6 53. Nc2 Ke8 54. Re3 Qd2
+55. Rb2 Bc4 56. Rc3 Bd3 57. Rc4 Kf8 58. Ra2 Bf5 59. Qd6 Qg2 60. Qc7 Qxc2 61.
+Ra3 Kg7 62. Re3 Ra7 63. Re5 Rf6 64. Re6 Rxe6 65. Be2 Rf6 66. Bh5 g2 67. Qd7 Re6
+68. Bg4 Be4 69. Kh4 Rf6 70. Qe8 Kh6 71. Bh5 g5+ 72. Kh3 gxf4 73. Kh4 Rf5 74.
+Bg4 Qa2 75. Kh3 Bf3 76. Kh2 Kg5 77. Kh3 Qf2 78. Kh2 Rf6 79. Qxe7 Qe1 80. Rd4
+Qe2 81. Qc7 Qd2 82. Qe5+ Kg6 83. Qe4+ Kf7 84. Qf5 Ra6 85. Qe6+ Kg6 86. Qe4+ Kf7
+87. Bh5+ Kg7 88. Qf5 Kg8 89. Qc2 Qc1 90. Qd2 Ra8 91. Rd8+ Kg7 92. Qd5 cxd5 93.
+Bxf3 Re6 94. c6 Re4 95. Re8 Re3 96. Rd8 Rd3 97. Rf8 Qb1 98. Re8 Rd1 99. Re2 Qb2
+100. Rd2 Qa3 101. Kh3 Qa2 102. Kh2 Qb3 103. Rb2 Qxb2 104. Be4 f3 105. Bd3 Qe2
+106. Kh3 Qb2 107. Bf1 d4 108. Kg3 Qc1 109. Kh3 Qb1 110. Kh4 Qb2 111. b5 d3 112.
+Kh5 Kf7 113. Kh4 Qe2 114. Kh5 Qxf1 115. Kg4 Ke7 116. Kh4 Kf8 117. Kg5 f2 118.
+Kg4 g1=Q+ 119. Kf3 Qgg2+ 120. Kf4 Qh3 121. Kg5 Qh8 122. Kg4 Qh7 123. Kf3 Qe2+
+124. Kg3 Qf1 125. Kg4 Qe2+ 126. Kg5 Qf1 127. Kg4 Qe2+ 128. Kf4 Qe3+ 129. Kg4
+Qe2+ 130. Kf4 Qf1 131. Kg4 Qe2+ 132. Kf4 Qf1 133. Kg4 Qe2+ 1/2-1/2
+

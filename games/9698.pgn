@@ -1,0 +1,20 @@
+[Event "Basilisk 401 Iterations"]
+[Site "Tau = 2.0 at <10 ply"]
+[Date "????.??.??"]
+[Round "Test ID: 9698"]
+[White "Basilisk"]
+[Black "Basilisk"]
+[Result "1-0"]
+
+1. d4 d6 2. e3 e5 3. c4 Nf6 4. d5 c5 5. Nf3 Nbd7 6. Nbd2 Be7 7. Qa4 O-O 8. Bd3
+b6 9. O-O Bb7 10. h3 Ba6 11. Qa5 Qc7 12. Rb1 Rfd8 13. Ne4 Qc6 14. Nxd6 Qxd5 15.
+Qc3 Qxd6 16. b3 Qd5 17. g3 Kh8 18. Bd2 Qe4 19. Ng5 Qc6 20. Rbd1 Qc7 21. Nf3 Bb5
+22. Ne1 Bxc4 23. f3 Qc6 24. Qc2 h6 25. Qc3 Qd5 26. a3 Rab8 27. Ra1 Qe4 28. g4
+a6 29. Qa5 bxa5 30. a4 Nb6 31. Bc3 Nbd5 32. Rf2 Qxf3 33. Rb1 Rxb3 34. g5 e4 35.
+Rc1 Ng4 36. Rh2 Rb5 37. Rb1 exd3 38. Nxd3 h5 39. Nf2 Nf4 40. Be5 Rdb8 41. Bd4
+Bd3 42. Bc3 Ne5 43. Be1 R8b6 44. exf4 Qg3+ 45. Kh1 f5 46. fxe5 f4 47. Bc3 c4
+48. Rb2 Bd6 49. Ra2 Bc5 50. Rg2 Kg8 51. Rd2 Rb4 52. Rxg3 Bd6 53. Kg2 Kf7 54.
+Bxb4 Ke7 55. Nd1 Rb5 56. Bxd6+ Ke6 57. Kf2 Bb1 58. Rg4 h4 59. Rd4 Kf5 60. Rd3
+Bc2 61. Ne3+ Ke4 62. Nd5 Rb2 63. Ne3 Rb1 64. Rc3 Bb3 65. e6 Bc2 66. g6 Kd4 67.
+Bxf4 Rd1 68. Rxh4 Ke4 69. Bd6# 1-0
+
