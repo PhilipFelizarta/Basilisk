@@ -1,5 +1,5 @@
 #This is our multiprocessing loop!
-def play_from(board, data):
+def play_from(board, pos, moves, res, lock):
 	import chess
 	import chess.uci
 	import numpy as np 
@@ -32,24 +32,26 @@ def play_from(board, data):
 	else:
 		result = 0.0
 
-	#lockless append to data!
-	s_value = []
+	#use lock
+	lock.acquire()
 	index = 0
 	end = len(s_pos)
-	for pos in s_pos:
+	for p in s_pos:
 		coeff = np.power(0.99, end - index - 1)
-		s_value.append(result*coeff)
+		res.append(result*coeff)
+		pos.append(p)
+		moves.append(s_moves[index])
 		index += 1
-
-	data.append([s_pos, s_moves, s_value])
+	lock.release()
 
 if __name__ == "__main__":
 	#Import statements
 	import chess
 	import chess.uci
 	from tqdm import tqdm
+	from time import time
 	
-	from multiprocessing import Process, Manager
+	from multiprocessing import Process, Manager, Lock
 
 	import numpy as np
 	import tensorflow as tf 
@@ -64,6 +66,10 @@ if __name__ == "__main__":
 	from tensorflow.keras import backend as K
 	import env
 	import MCTS
+
+	import matplotlib.pyplot as plt
+	import matplotlib.animation as animation
+	from matplotlib import style
 
 	K.set_image_data_format('channels_last')
 	def save_model(model, modelFile, weightFile): #Save model to json and weights to HDF5
@@ -168,7 +174,7 @@ if __name__ == "__main__":
 		latent_MSE = K.sum(K.square(true_latent - new_latent), axis=1)
 		L_h = K.mean(latent_MSE)
 		
-		opt_h = tf.keras.optimizers.Adam(3e-3)
+		opt_h = tf.keras.optimizers.Adam(1e-3)
 		updates_h = opt_h.get_updates(params=hmodel.trainable_weights, loss=L_h)
 		train_fn_h = K.function(inputs=[hmodel.input[0], hmodel.input[1], true_latent],
 							   outputs=[L_h], updates=updates_h)
@@ -187,8 +193,8 @@ if __name__ == "__main__":
 		
 		loss = Lclip + 1.0*MSE
 
-		#optimizer
-		opt = tf.keras.optimizers.SGD(3e-4, momentum=0.9, nesterov=True)
+		#optimizers
+		opt = tf.keras.optimizers.SGD(1e-2, momentum=0.9, nesterov=True) #LEARNING RATE
 		updates = opt.get_updates(params=model.trainable_weights, loss=loss)
 		train_fn = K.function(inputs=[model.input, expert, target], outputs=[Lclip, MSE], updates=updates)
 		
@@ -358,31 +364,34 @@ if __name__ == "__main__":
 		
 		return model, fmodel, gmodel, hmodel, train_fn, train_fn_h
 
-
-
 	model, fmodel, gmodel, hmodel, train_fn, _ = create_NN()
 	load = load_model("TinyBasilisk.json", "TinyBasilisk.h5", update=False)
 	model.set_weights(load.get_weights())
 
 	board = chess.Board()
 	manager = Manager()
-	
-
+	lock = Lock()
 	#Training hyperparameters
-	cycles = 10001
-	num_processes = 1000
+	cycles = 24001
+	num_processes = 200
 	num_workers = 32
-	epochs = 10
+	epochs = 25
 	opening_book = ["e2e4", "d2d4", "g1f3", "c2c4"]
 	move_dict = env.generate_move_dict()
+	p_loss = []
+	m_loss = []
 
 	model_image = []
 	expert = []
 	targ = []
 	appends = 0
 	#Training Loop
+	plt.ion()
+	fig, axs = plt.subplots(2)
 	for cycle_num in range(cycles):
-		data = manager.list()
+		model_image = manager.list()
+		expert = manager.list()
+		targ = manager.list()
 		
 		processes = []
 		
@@ -392,19 +401,6 @@ if __name__ == "__main__":
 		print("Siumulating Games...")
 		ply_number = 1
 		for m in tqdm(range(num_processes)):
-			if len(processes) > num_workers:
-				if len(data) > 0:
-					exp = data.pop(0)
-					if appends == 0: 
-						model_image = np.reshape(np.array(exp.pop(0)), [-1, 8, 8, 17])
-						expert = np.reshape(np.array(exp.pop(0)), [-1, 1968])
-						targ = np.reshape(np.array(exp.pop(0)), [-1, 1])
-					else:
-						model_image = np.append(model_image, np.reshape(np.array(exp.pop(0)), [-1, 8, 8, 17]), axis=0)
-						expert = np.append(expert, np.reshape(np.array(exp.pop(0)), [-1, 1968]), axis=0)
-						targ = np.append(targ, np.reshape(np.array(exp.pop(0)), [-1, 1]), axis=0)
-					appends += 1
-
 			board.reset()
 			ply_number = 2
 			uci_index = np.random.choice(4)
@@ -420,7 +416,7 @@ if __name__ == "__main__":
 
 				if ply_number > mv-1:
 					copy = board.copy()             
-					p = Process(target=play_from, args=(copy, data))
+					p = Process(target=play_from, args=(copy, model_image, expert, targ, lock))
 					p.start()
 					processes.append(p)
 
@@ -454,18 +450,6 @@ if __name__ == "__main__":
 
 		#Clean up processes
 		print("Cleaning up...")
-		while len(data) > 0:
-			exp = data.pop(0)
-			if appends == 0: 
-				model_image = np.reshape(np.array(exp.pop(0)), [-1, 8, 8, 17])
-				expert = np.reshape(np.array(exp.pop(0)), [-1, 1968])
-				targ = np.reshape(np.array(exp.pop(0)), [-1, 1])
-			else:
-				model_image = np.append(model_image, np.reshape(np.array(exp.pop(0)), [-1, 8, 8, 17]), axis=0)
-				expert = np.append(expert, np.reshape(np.array(exp.pop(0)), [-1, 1968]), axis=0)
-				targ = np.append(targ, np.reshape(np.array(exp.pop(0)), [-1, 1]), axis=0)
-			appends += 1
-
 		for i in range(len(processes)):
 			processes[i].join()
 
@@ -473,22 +457,18 @@ if __name__ == "__main__":
 
 		#Load data
 		print("Loading Data...")
-		for i in range(len(data)):
-			exp = data.pop(0)
-			if appends == 0: 
-				model_image = np.reshape(np.array(exp.pop(0)), [-1, 8, 8, 17])
-				expert = np.reshape(np.array(exp.pop(0)), [-1, 1968])
-				targ = np.reshape(np.array(exp.pop(0)), [-1, 1])
-			else:
-				model_image = np.append(model_image, np.reshape(np.array(exp.pop(0)), [-1, 8, 8, 17]), axis=0)
-				expert = np.append(expert, np.reshape(np.array(exp.pop(0)), [-1, 1968]), axis=0)
-				targ = np.append(targ, np.reshape(np.array(exp.pop(0)), [-1, 1]), axis=0)
+		t0 = time()
+		model_image = np.reshape(np.array(model_image), [-1, 8, 8, 17])
+		expert = np.reshape(np.array(expert), [-1, 1968])
+		targ = np.reshape(np.array(targ), [-1, 1])
+		print("Time: ", time()-t0)
+
 
 		n = len(targ)
 
 		print("Shuffling Data...")
 		mi, e, ta = shuffle_data(model_image, expert, targ)
-		splits = int(len(ta)/4096)
+		splits = int(len(ta)/1024)
 		exp_mi = np.array_split(mi, splits)
 		exp_e = np.array_split(e, splits)
 		exp_ta = np.array_split(ta, splits)
@@ -503,15 +483,19 @@ if __name__ == "__main__":
 				pe += loss[0]
 				mse += loss[1]
 
-		model_image = mi[:10000]
-		expert = e[:10000]
-		targ = ta[:10000]
-
+		p_loss.append(pe/(splits*epochs))
+		m_loss.append(mse/(splits*epochs))
+		axs[0].plot(p_loss)
+		axs[1].plot(m_loss)
+		plt.draw()
+		plt.pause(0.0001)
 		print("Iteration: ", cycle_num, ": policy_loss: ", pe/(splits*epochs), " value loss: ", mse/(splits*epochs),
 			" Data: ", len(ta))
 
-		if cycle_num % 10 == 1:
+		if cycle_num % 2 == 1:
 			save_model(model, "TinyBasilisk.json", "TinyBasilisk.h5")
 			save_model(fmodel, "TinyBasiliskf.json", "TinyBasiliskf.h5")
 			save_model(gmodel, "TinyBasiliskg.json", "TinyBasiliskg.h5")
 			save_model(hmodel, "TinyBasiliskh.json", "TinyBasiliskh.h5")
+
+	plt.show(block=True)
