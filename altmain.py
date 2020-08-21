@@ -140,7 +140,7 @@ if __name__ == "__main__":
 	def create_NN():
 		image = Input(shape=(8, 8, 17)) #Chess representation
 		X = Flatten()(image)
-		latent = Dense(64, activation="relu", name="latentspace", kernel_initializer=glorot_uniform())(X)
+		latent = Dense(64, activation="tanh", name="latentspace", kernel_initializer=glorot_uniform())(X)
 
 		#Create state -> hidden state model
 		fmodel = Model(inputs=image, outputs=latent)
@@ -165,8 +165,8 @@ if __name__ == "__main__":
 		new_policy = Input(shape=(1968,))
 		concat = Concatenate(axis=-1)([p_latent, new_policy])
 		
-		hidden = Dense(10, activation="relu")(concat)
-		new_latent = Dense(64, activation="relu")(hidden)
+		hidden = Dense(10, activation="tanh")(concat)
+		new_latent = Dense(64, activation="tanh")(hidden)
 		hmodel = Model(inputs=[p_latent, new_policy], outputs=new_latent)
 		
 		#Create updates for hmodel
@@ -365,8 +365,8 @@ if __name__ == "__main__":
 		return model, fmodel, gmodel, hmodel, train_fn, train_fn_h
 
 	model, fmodel, gmodel, hmodel, train_fn, _ = create_NN()
-	load = load_model("TinyBasilisk.json", "TinyBasilisk.h5", update=False)
-	model.set_weights(load.get_weights())
+	#load = load_model("TinyBasilisk.json", "TinyBasilisk.h5", update=False)
+	#model.set_weights(load.get_weights())
 
 	board = chess.Board()
 	manager = Manager()
