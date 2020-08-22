@@ -194,7 +194,7 @@ if __name__ == "__main__":
 		loss = Lclip + 1.0*MSE
 
 		#optimizers
-		opt = tf.keras.optimizers.SGD(1e-2, momentum=0.9, nesterov=True) #LEARNING RATE
+		opt = tf.keras.optimizers.SGD(3e-4, momentum=0.9, nesterov=True) #LEARNING RATE
 		updates = opt.get_updates(params=model.trainable_weights, loss=loss)
 		train_fn = K.function(inputs=[model.input, expert, target], outputs=[Lclip, MSE], updates=updates)
 		
@@ -365,17 +365,17 @@ if __name__ == "__main__":
 		return model, fmodel, gmodel, hmodel, train_fn, train_fn_h
 
 	model, fmodel, gmodel, hmodel, train_fn, _ = create_NN()
-	#load = load_model("TinyBasilisk.json", "TinyBasilisk.h5", update=False)
-	#model.set_weights(load.get_weights())
+	load = load_model("TinyBasilisk.json", "TinyBasilisk.h5", update=False)
+	model.set_weights(load.get_weights())
 
 	board = chess.Board()
 	manager = Manager()
 	lock = Lock()
 	#Training hyperparameters
 	cycles = 24001
-	num_processes = 200
+	num_processes = 2000
 	num_workers = 32
-	epochs = 25
+	epochs = 100
 	opening_book = ["e2e4", "d2d4", "g1f3", "c2c4"]
 	move_dict = env.generate_move_dict()
 	p_loss = []
